@@ -1,0 +1,19 @@
+# Downloaded data and generated working outputs
+**/data/
+**/kay_fmri_data/
+**/fmri_rsa_outputs/
+**/cache/
+*.part
+
+# Local Python/Jupyter files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.env
+.DS_Store
+
+# Local bundles; commit selected figures and result tables instead
+*.zip
