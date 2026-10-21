@@ -1,0 +1,10 @@
+# Runtime dependencies. Exact versions from a completed run are recorded in
+# results/analysis_metadata.json; this list is not a frozen environment.
+numpy
+pandas
+scipy
+matplotlib>=3.6
+requests
+tqdm
+ipython
+jupyterlab
