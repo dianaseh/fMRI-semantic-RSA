@@ -1,0 +1,3 @@
+split,n_images,unique_predicted_classes,level_2_multi_parent_labels,images_using_level_2_multi_parent_label,level_3_multi_parent_labels,images_using_level_3_multi_parent_label
+training,1750,529,8,1360,28,1234
+secondary,120,84,2,37,2,8

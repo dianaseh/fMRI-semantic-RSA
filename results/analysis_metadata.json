@@ -1,0 +1,82 @@
+{
+  "project": "Semantic-label correspondence in human visual cortex",
+  "analysis_status": "exploratory portfolio revision",
+  "python": "3.13.16",
+  "packages": {
+    "numpy": "2.1.3",
+    "scipy": "1.16.3",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.0",
+    "requests": "2.32.4",
+    "tqdm": "4.67.3"
+  },
+  "input_urls": {
+    "kay_labels.npy": "https://osf.io/r638s/download",
+    "kay_labels_val.npy": "https://osf.io/yqb3e/download",
+    "kay_images.npz": "https://osf.io/ymnjv/download"
+  },
+  "input_sha256": {
+    "kay_labels.npy": "d54ee14c1e657d0d3c60c391b095b9c9d70734a147e681b874832d587f515d1a",
+    "kay_labels_val.npy": "5bd3ed7163148cf1d272e522fda95695e074dbc4b9ff615f633f85186e256c07",
+    "kay_images.npz": "5ac45426ebeb4ddb21dea424609891c015000dd4c54be84e99516b66f47bb7ba"
+  },
+  "method_hash": "6ab99aaaf276bcb8af9f71fa8ce0894a4363cd1b85d216920cf04b4722d1bc0a",
+  "n_training": 1750,
+  "n_secondary": 120,
+  "roi_voxel_counts": {
+    "V1": 1294,
+    "V2": 2083,
+    "V3": 1790,
+    "V3A": 484,
+    "V3B": 314,
+    "V4": 1535,
+    "LatOcc": 928
+  },
+  "semantic_model": "weighted exact overlap of supplied annotation rows 0\u20132",
+  "weights": [
+    1.0,
+    2.0,
+    3.0
+  ],
+  "weight_selection_history": "not established",
+  "neural_metric": "Pearson correlation across ROI voxels",
+  "rsa_metric": "Spearman correlation of strict upper triangles; average tie ranks",
+  "inference": "two-sided stimulus-identity permutations; shared across ROIs",
+  "correction": "maximum absolute null statistic across seven ROIs separately per split",
+  "permutations": {
+    "training": 1999,
+    "secondary": 4999
+  },
+  "seeds": {
+    "figures": 42,
+    "training": 20261021,
+    "secondary": 20261022
+  },
+  "participant_provenance": "unresolved in distributed archive",
+  "secondary_is_confirmatory": false,
+  "annotations_modified": false,
+  "posthoc_terminal_sensitivity_applied": true,
+  "posthoc_excluded_ids": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119
+  ],
+  "posthoc_exclusion_rule": "maximal terminal run of animal / acorn / acorn / Afghan hound"
+}

@@ -1,0 +1,43 @@
+roi,spearman_rho,model
+V1,0.0019500114955936,Weighted rows
+V2,0.0042530291815436,Weighted rows
+V3,0.0065984275348496,Weighted rows
+V3A,0.0120980876461277,Weighted rows
+V3B,0.0226908106944994,Weighted rows
+V4,0.0177124746850753,Weighted rows
+LatOcc,0.0381566386778292,Weighted rows
+V1,0.0018949948652601477,Equal weights
+V2,0.004184685195411567,Equal weights
+V3,0.006572426503891872,Equal weights
+V3A,0.012130118041168546,Equal weights
+V3B,0.02267265826385317,Equal weights
+V4,0.017646511146411692,Equal weights
+LatOcc,0.03808954758143634,Equal weights
+V1,0.005373544013686711,Predicted class
+V2,0.0058153380604279385,Predicted class
+V3,0.0056203688441133146,Predicted class
+V3A,0.004136373558289949,Predicted class
+V3B,0.011377503357744562,Predicted class
+V4,0.010616975035019864,Predicted class
+LatOcc,0.014620561780406811,Predicted class
+V1,0.001234141156326826,Supplied label level 1
+V2,0.0031067738185635864,Supplied label level 1
+V3,0.005701538982566734,Supplied label level 1
+V3A,0.011136220852936071,Supplied label level 1
+V3B,0.0203969965032351,Supplied label level 1
+V4,0.014956432438156904,Supplied label level 1
+LatOcc,0.03278362129222749,Supplied label level 1
+V1,0.0022173787188030703,Supplied label level 2
+V2,0.004538970851802005,Supplied label level 2
+V3,0.006011245848154205,Supplied label level 2
+V3A,0.011144370038367877,Supplied label level 2
+V3B,0.020774916275332157,Supplied label level 2
+V4,0.017249192156598602,Supplied label level 2
+LatOcc,0.036609020124244544,Supplied label level 2
+V1,0.0029548430567588537,Supplied label level 3
+V2,0.005523209864945456,Supplied label level 3
+V3,0.006742816274058476,Supplied label level 3
+V3A,0.009597479314181076,Supplied label level 3
+V3B,0.01816914904539311,Supplied label level 3
+V4,0.017997539117322003,Supplied label level 3
+LatOcc,0.037726179869090846,Supplied label level 3
